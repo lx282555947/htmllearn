@@ -2,24 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9947cb36-a3b8-4823-b565-783172a4c4eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/htmllearn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/div和span.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/img/7AAACEF7-ADD1-4532-AB97-DDF866C6F5EC_1_105_c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/start.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/zip/工资等级.txt.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/列表标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/图像标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/文本格式化标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/标题标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/段落标签和换行标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/注释和特殊标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/表格标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/超链接标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/表单标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/css内部样式表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/css基本结构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/css行内样式表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/id选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/resources/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/后代选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/外部样式表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/子元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/字体.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/并集选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/文本对齐.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/文本缩进.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/标签选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/行间距.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/装饰文本.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/通配符选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/表单标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/表单标签.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +32,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1dS6rvqxrgCSUc5qgARO6r91eba" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,10 +57,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/html/zip" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/html" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html/zip" />
       <recent name="$PROJECT_DIR$/html/img" />
@@ -77,11 +94,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592406349983</updated>
-      <workItem from="1592406351089" duration="4837000" />
+      <workItem from="1592406351089" duration="10381000" />
     </task>
+    <task id="LOCAL-00001" summary="html学习">
+      <created>1592439067733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592439067733</updated>
+    </task>
+    <task id="LOCAL-00002" summary="html学习">
+      <created>1592439159526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592439159526</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="html学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="html学习" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="271" y="52" key="CommitChangelistDialog2" timestamp="1592439159408">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="271" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592439159408" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1592439161608">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592439161608" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592487418441">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592487418441" />
   </component>
 </project>
