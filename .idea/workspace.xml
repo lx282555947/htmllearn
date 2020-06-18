@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9947cb36-a3b8-4823-b565-783172a4c4eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/htmllearn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/div和span.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/7AAACEF7-ADD1-4532-AB97-DDF866C6F5EC_1_105_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/zip/工资等级.txt.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/列表标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/图像标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/文本格式化标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/标题标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/段落标签和换行标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/注释和特殊标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/表格标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/超链接标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/表单标签.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dS6rvqxrgCSUc5qgARO6r91eba" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/zip" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/zip" />
+      <recent name="$PROJECT_DIR$/html/img" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9947cb36-a3b8-4823-b565-783172a4c4eb" name="Default Changelist" comment="" />
+      <created>1592406349983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592406349983</updated>
+      <workItem from="1592406351089" duration="4837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

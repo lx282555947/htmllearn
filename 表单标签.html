@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="html/start.html" method="POST" name="表单1">
+<!--        输入-->
+        用户名：<input type="text" name="username" value="请输入用户名" maxlength="6"><br>
+        密码：<input type="password" name="password"><br>
+<!--        单选  name是属性名，单选必须相同，value是属性值 当给后端传参是要用-->
+        性别：男<input type="radio" name="sex" value="男" checked="checked"> 女<input type="radio" name="sex" value="女"><br>
+<!--        checked为默认选项-->
+<!--        复选框-->
+        爱好：吃饭<input type="checkbox" name="hobby" value="吃饭" checked="checked">睡觉<input type="checkbox" name="hobby" value="睡觉" checked="checked">打豆豆<input type="checkbox" name="hobby" value="打豆豆">
+    </form>
+</body>
+</html>

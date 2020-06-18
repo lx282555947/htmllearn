@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--这些属性都要写到table标签里面 cellpadding是单元格内部字体里每个单元格边框的距离，cellspacing是单元格之间的距离-->
+    <table align="left" border="1" cellpadding="20" cellspacing="0" width="200">
+<!--        这是行-->
+        <thead>
+            <tr>
+    <!--            这是表头单元格-->
+                <th>name</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <!--            这是普通单元格-->
+                <td>lixin</td>
+                <td>18</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>zhangsna</td>
+                <td>18</td>
+                <td>女</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!--合并单元格-->
+<!--跨行  最上面-->
+<!--跨列  最左边-->
+<!--跨列  找到目标单元格，添加合并，删除多余单元格-->
+    <table align="left" border="1" cellpadding="20" cellspacing="0" width="200">
+        <!--        这是行-->
+        <thead>
+        <tr>
+            <!--            这是表头单元格-->
+            <th>name</th>
+            <th colspan="2">年龄</th>
+<!--            <th>性别</th>-->
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <!--            这是普通单元格-->
+            <td rowspan="2">lixin</td>
+            <td>18</td>
+            <td>男</td>
+        </tr>
+        <tr>
+<!--            <td>zhangsna</td>-->
+            <td>18</td>
+            <td>女</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
