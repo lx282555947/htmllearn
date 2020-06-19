@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-    <form action="start.html" method="POST" name="表单1">
+    <form action="start.html" method="GET" name="表单1">
 <!--        输入-->
         用户名：<input type="text" name="username" value="请输入用户名" maxlength="6"><br>
         密码：<input type="password" name="password"><br>
@@ -14,6 +14,14 @@
 <!--        checked为默认选项-->
 <!--        复选框-->
         爱好：吃饭<input type="checkbox" name="hobby" value="吃饭" checked="checked">睡觉<input type="checkbox" name="hobby" value="睡觉" checked="checked">打豆豆<input type="checkbox" name="hobby" value="打豆豆">
+        <br>
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+<!--        普通按钮-->
+        <br>
+        <button type="button">发送验证短信</button>
+        <br>
+        上传头像:<input type="file">
     </form>
 </body>
 </html>
