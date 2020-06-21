@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子阴影</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            /*border: 3px solid red;*/
+            background-color: pink;
+            margin: 100px auto;
+            /*阴影有以下几个参数：h-shadow：水平阴影位置；v-shadow：垂直阴影位置；blur：模糊距离；spread：阴影尺寸；color：阴影颜色；inset：内阴影*/
+            /*阴影尺寸决定阴影的大小，如果为0则与原始div一样大*/
+            /*模糊距离指的是模糊的宽度*/
+            /*水平阴影和垂直阴影位置是相对于原始块的位置，负数则向左侧和顶部偏离*/
+            box-shadow: 10px 10px 10px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

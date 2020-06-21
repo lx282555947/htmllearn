@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #f3f5f7;
+}
+
+/*布局定位->自身属性->文本属性->其他属性*/
+.w{
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+    height: 42px;
+    margin: 30px auto;
+}
+
+.header .log{
+    float: left;
+}
+
+.header .nav{
+    float: left;
+    margin-left: 66px;
+}
+.header .nav li{
+    float: left;
+    margin: 0 15px;
+}
+.header .nav li a {
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+.header .nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search{
+    float: left;
+    margin-left: 50px;
+    width: 410px;
+}
+
+.search input {
+    float: left;
+    width: 341px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    padding-left: 18px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-image: url(../素材/fa-search.png);
+}
+
+.user {
+    float: right;
+    margin-right: 40px;
+    height: 42px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.banner{
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w{
+    height: 420px;
+    background: url("../素材/banner2.png") no-repeat top center;
+}
+
+.banner .subnav {
+    width: 192px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner .subnav ul li {
+    height: 46px;
+    padding: 0 23px;
+    line-height: 46px;
+}
+
+.banner .subnav ul li a{
+    height: 46px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.banner .subnav ul li a span {
+    float: right;
+}
+.banner .subnav ul li a:hover{
+    color: #00a4ff;
+}

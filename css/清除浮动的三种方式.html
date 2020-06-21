@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style>
+        /*第一种方式，在父类标签末尾加入一个clear标签*/
+        .father1{
+            /*width: 400px;*/
+            /*height: 200px;*/
+            margin: 0 auto;
+            background-color: black;
+        }
+        .son1{
+            width: 100px;
+            height: 200px;
+            background-color: pink;
+            float: left;
+        }
+        .son2{
+            width: 100px;
+            height: 200px;
+            background-color: green;
+            float: left;
+        }
+        .father1bro{
+            height: 200px;
+            background-color: yellow;
+        }
+        .father1 .clear{
+            clear: both;
+        }
+        /*第二种方式，在父标签css样式中加入overflow:hidden*/
+        .father2 {
+            /*width: 400px;*/
+            /*height: 200px;*/
+            margin: 0 auto;
+            background-color: black;
+            overflow: hidden;
+        }
+        .son3{
+            width: 100px;
+            height: 200px;
+            background-color: pink;
+            float: left;
+        }
+        .son4{
+            width: 100px;
+            height: 200px;
+            background-color: green;
+            float: left;
+        }
+        .father2bro{
+            height: 200px;
+            background-color: yellow;
+        }
+
+        /*第三种方式，添加after伪元素*/
+        .clearfix:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        .clearfix {
+            /* IE6、7 专有 */
+            *zoom: 1;
+        }
+
+        .father3{
+            /*width: 400px;*/
+            /*height: 200px;*/
+            margin: 0 auto;
+            background-color: black;
+        }
+        .son5{
+            width: 100px;
+            height: 200px;
+            background-color: pink;
+            float: left;
+        }
+        .son6{
+            width: 100px;
+            height: 200px;
+            background-color: green;
+            float: left;
+        }
+        .father3bro{
+            height: 200px;
+            background-color: yellow;
+        }
+
+        /*第四种方式，添加双伪元素*/
+        .clearfix4:before,
+        .clearfix4:after {
+            content: "";
+            display: table;
+        }
+
+        .clearfix4:after {
+            clear: both;
+        }
+
+        .clearfix4 {
+            *zoom: 1;
+        }
+        .father4{
+            /*width: 400px;*/
+            /*height: 200px;*/
+            margin: 0 auto;
+            background-color: black;
+        }
+        .son7{
+            width: 100px;
+            height: 200px;
+            background-color: pink;
+            float: left;
+        }
+        .son8{
+            width: 100px;
+            height: 200px;
+            background-color: green;
+            float: left;
+        }
+        .father4bro{
+            height: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h3>第一种方法</h3>
+    <div class="father1">
+        <div class="son1"></div>
+        <div class="son2"></div>
+        <div class="clear"></div>
+    </div>
+    <div class="father1bro"></div>
+    <br>
+    <h3>第二种方法</h3>
+    <div class="father2">
+        <div class="son3"></div>
+        <div class="son4"></div>
+    </div>
+    <div class="father2bro"></div>
+    <h3>第三种方法</h3>
+    <div class="father3 clearfix">
+        <div class="son5"></div>
+        <div class="son6"></div>
+    </div>
+    <div class="father3bro"></div>
+    <h3>第四种方法</h3>
+    <div class="father4 clearfix4">
+        <div class="son7"></div>
+        <div class="son8"></div>
+    </div>
+    <div class="father4bro"></div>
+</body>
+</html>
