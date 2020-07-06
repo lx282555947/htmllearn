@@ -4,22 +4,43 @@
     <meta charset="UTF-8">
     <title>margin</title>
     <style>
-        div{
+        /*div{*/
+        /*    background-color: pink;*/
+        /*    height: 200px;*/
+        /*    width: 200px;*/
+        /*    !*块元素居中*!*/
+        /*    margin: 10px auto;*/
+        /*    !*行内元素和行内块元素居中*!*/
+        /*    text-align: center;*/
+        /*}*/
+
+        .outer {
             background-color: pink;
             height: 200px;
-            width: 200px;
-            /*块元素居中*/
-            margin: 10px auto;
-            /*行内元素和行内块元素居中*/
-            text-align: center;
+        }
+        /*margin-left + padding-left + width + padding-right + margin-right = body.width*/
+        /*margin、padding默认为0，当等式不成立的时候，会自动调整margin-right的大小*/
+        /*当margin-left 或者margin -rght为auto的时候， auto会根据等式动态调整*/
+        /*当margin-left 和margin-right 都为auto的时候，两个值都会根据等式平分*/
+        .inner {
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            margin-left: auto;
+            margin-right: 100px;
+
         }
     </style>
 </head>
 <body>
-    <div></div>
-    <div></div>
-    <div>
-        <p>我还发烧弗利萨记录</p>
+<!--    <div></div>-->
+<!--    <div></div>-->
+<!--    <div>-->
+<!--        <p>我还发烧弗利萨记录</p>-->
+<!--    </div>-->
+
+    <div class='outer'>
+        <div class = 'inner'></div>
     </div>
 </body>
 </html>
