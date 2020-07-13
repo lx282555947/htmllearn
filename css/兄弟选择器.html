@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>兄弟选择器</title>
+    <style>
+        /*选择p标签的下一个兄弟元素*/
+        p + div {
+            background-color: pink;
+        }
+        /*选择p后面的所有兄弟元素*/
+        p~h3 {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <p>哈哈</p>
+        <div>第一个兄弟</div>
+
+        <div>第二个兄弟</div>
+    </div>
+
+    <div class="second">
+        <p>哈哈</p>
+        <h3>第一个兄弟</h3>
+        <h3>第二个兄弟</h3>
+    </div>
+</body>
+</html>
